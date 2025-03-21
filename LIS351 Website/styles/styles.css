@@ -1,0 +1,186 @@
+/* Reset default list styles */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Makes the list horizontal */
+    background-color: #000000; /* Navbar background color */
+    justify-content: center;
+}
+
+/* Style each tab */
+nav ul li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style links */
+nav ul li a {
+    display: block;
+    padding: 12px 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+    background-color: #0D3950;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    flex-direction: column; /* Stacks elements vertically */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #114C6C;
+    color: white;
+    padding: 20px;
+}
+
+/* General container styling */
+.container {
+    display: flex;
+    width: 100%;
+    background: #C7C7C7;
+    padding-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+}
+
+/* Home Page - Image and Text Layout */
+.text {
+    width: 50%;
+    padding: 30px;
+    font-size: 18px;
+}
+
+.image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    max-width: 80%;
+    border-radius: 8px;
+}
+
+/*Certification Page*/
+.text1 {
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+}
+
+/* About Me Page */
+.text2 {
+    width: 60%;
+    padding: 0px;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+.image {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image img {
+    max-width: 100%;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Contact Page */
+.container1 {
+    width: 100%;
+    background: #C7C7C7;
+    padding-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+}
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+}
+
+.column {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+li {
+    padding: 8px;
+    border-bottom: 1px solid #0D3950;
+}
+
+/* Blog Page - Grid Layout */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 20px;
+    gap: 20px;
+    width: 100%;
+    height: 60%;
+    padding: 10px;
+}
+
+.grid .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.grid .item:hover {
+    background-color: #ddd;
+}
+
+.grid .description {
+    font-size: 16px;
+    font-weight: normal;
+    color: #666;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Headings */
+h1 {
+    color: #000000;
+    text-align: center;
+}
+
+h2 {
+    color: #0C364D;
+    text-align: center;
+}
+
+h3 {
+    color: #1A75A5;
+}
